@@ -11,8 +11,7 @@ Retail businesses often struggle to identify:
 - Which customers are likely to buy again?
 - How can they prioritize marketing efforts?
 
-This project uses **RFM analysis**, **clustering**, and **supervised ML** to solve these questions — and wraps the results into a live dashboard.
-
+This project uses RFM analysis, unsupervised learning (clustering) for customer segmentation, and supervised machine learning for purchase prediction — all wrapped into a live dashboard deployed on the cloud.
 ---
 
 ##  Dataset Overview
@@ -97,6 +96,7 @@ Use the form to enter RFM values and get instant predictions from the trained mo
 ├── Dockerfile
 ├── requirements.txt
 └── retail-app.zip # For deployment
+
 
 🙋‍♂️ Author
 Pankaj Kumar Singh
