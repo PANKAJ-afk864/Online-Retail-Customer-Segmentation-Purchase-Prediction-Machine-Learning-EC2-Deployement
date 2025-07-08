@@ -21,9 +21,9 @@ monetary = st.number_input("Monetary Value (total spent)", min_value=0.0, step=1
 if st.button("Predict"):
     pred, prob = predict_purchase(model, scaler, recency, frequency, monetary)
     if pred == 1:
-        st.success(f"✅ Likely to Purchase (Confidence: {prob:.2%})")
+        st.success(f" Likely to Purchase (Confidence: {prob:.2%})")
     else:
-        st.error(f"❌ Unlikely to Purchase (Confidence: {prob:.2%})")
+        st.error(f" Unlikely to Purchase (Confidence: {prob:.2%})")
 
 # Optional: Add cluster segment table/visualizations
 st.markdown("---")
